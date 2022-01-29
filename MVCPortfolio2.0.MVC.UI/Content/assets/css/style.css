@@ -8,7 +8,7 @@ a {
 }
 
     a:hover {
-        color: #e9b440;
+        color: #E31837;
         text-decoration: none
     }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
         .back-to-top i:hover {
-            background: #e9b440;
+            background: #E31837;
             color: #fff
         }
 
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
         #header .logo h1 a, #header .logo h1 a:hover {
-            color: #e9b440;
+            color: #E31837;
             text-decoration: none
         }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
             .nav-menu .active > a, .nav-menu a:hover, .nav-menu li:hover > a {
-                color: #e9b440;
+                color: #E31837;
                 text-decoration: none
             }
 
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
             .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul li:hover > a {
-                color: #e9b440
+                color: #E31837
             }
 
         .nav-menu .drop-down > a:after {
@@ -245,7 +245,7 @@ img.logo-nav {
     }
 
         .mobile-nav .active > a, .mobile-nav a:hover, .mobile-nav li:hover > a {
-            color: #e9b440;
+            color: #E31837;
             text-decoration: none
         }
 
@@ -307,7 +307,7 @@ img.logo-nav {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/background4.jpg);
+    background: url('../img/ales-nesetril-Im7lZjxeLhg-unsplash (1).jpg');
     background-position: center
 }
 
@@ -336,7 +336,7 @@ img.logo-nav {
         font-weight: 500;
         line-height: 56px;
         color: #fff;
-        text-shadow: 2px 2px 8px #e9b440
+        text-shadow: 2px 2px 8px #E31837
     }
 
     #hero h2 {
@@ -345,7 +345,7 @@ img.logo-nav {
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
-        text-shadow: 2px 2px 8px #e9b440
+        text-shadow: 2px 2px 8px #E31837
     }
 
     #hero .btn-get-started {
@@ -365,7 +365,7 @@ img.logo-nav {
 
         #hero .btn-get-started:hover {
             background: #fff;
-            color: #e9b440
+            color: #E31837
         }
 
 @media (min-width:1024px) {
@@ -425,7 +425,8 @@ section {
 
 .about .content ul {
     list-style: none;
-    padding: 0
+    padding: 0;
+    background: white;
 }
 
     .about .content ul li {
@@ -492,7 +493,7 @@ section {
         }
 
         .featured .nav-link:hover h4 {
-            color: #e9b440
+            color: #E31837
         }
 
         .featured .nav-link p {
@@ -624,7 +625,7 @@ section {
         }
 
             .why-us .accordion-list a.collapsed:hover {
-                color: #e9b440
+                color: #E31837
             }
 
             .why-us .accordion-list a.collapsed .icon-show {
@@ -776,8 +777,8 @@ section {
     }
 
         .portfolio #portfolio-flters li.filter-active, .portfolio #portfolio-flters li:hover {
-            background: #2c3a47;
-            color: #e9b440
+            background: white;
+            color: #E31837
         }
 
         .portfolio #portfolio-flters li:last-child {
@@ -877,7 +878,7 @@ section {
         }
 
             .portfolio .portfolio-wrap .portfolio-links a:hover {
-                color: #e9b440
+                color: #E31837
             }
 
     .portfolio .portfolio-wrap:hover::before {
@@ -1062,7 +1063,7 @@ section {
             }
 
                 .team .member .social a:hover {
-                    color: #e9b440
+                    color: #E31837
                 }
 
             .team .member .social i {
@@ -1181,7 +1182,7 @@ section {
 
         .pricing .box .btn-buy:hover {
             background: #2c3a47;
-            color: #e9b440
+            color: #E31837
         }
 
 .pricing .recommended {
@@ -1255,7 +1256,7 @@ section {
     }
 
         .faq .faq-list a.collapsed:hover {
-            color: #e9b440
+            color: #E31837
         }
 
         .faq .faq-list a.collapsed .icon-show {
@@ -1276,7 +1277,7 @@ section {
 
     .contact .info i {
         font-size: 20px;
-        color: #e9b440;
+        color: #E31837;
         float: left;
         width: 44px;
         height: 44px;
@@ -1309,7 +1310,7 @@ section {
 
         .contact .info .address:hover i, .contact .info .email:hover i, .contact .info .phone:hover i {
             background: #2c3a47;
-            color: #e9b440
+            color: #E31837
         }
 
 .contact .php-email-form {
@@ -1582,14 +1583,14 @@ section {
             font-family: Poppins,serif;
             padding: 30px 0 0 0;
             margin-bottom: 0;
-            text-shadow: 2px 2px 8px #e9b440
+            text-shadow: 2px 2px 8px #E31837
         }
 
         #footer .footer-top p {
             font-size: 15px;
             margin: 15px 0 0 0;
             padding: 0;
-            text-shadow: 2px 2px 8px #e9b440
+            text-shadow: 2px 2px 8px #E31837
         }
 
         #footer .footer-top .footer-newsletter {
@@ -1649,7 +1650,7 @@ section {
         }
 
             #footer .footer-top .social-links a:hover {
-                background: #e9b440;
+                background: #E31837;
                 color: #fff;
                 text-decoration: none
             }
@@ -1734,7 +1735,7 @@ div.resume-training {
 }
 
     .resumeBtn:hover {
-        color: #e9b440
+        color: #E31837
     }
 
 .align-center {
@@ -1765,10 +1766,15 @@ a.headLink {
     }
 
         #hero .social-links a:hover {
-            background: #e9b440;
+            background: #E31837;
             transition: .7s
         }
 
 #contactConfirmation {
     display: none
+}
+
+#tabs p {
+    font-size: .9em;
+    font-family: Calibri;
 }

@@ -1,9 +1,13 @@
-﻿<!-- ======= Hero Section ======= -->
+﻿<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container">
         <a href="@Url.Action("Index", "Home")" class="hero-logo" data-aos="zoom-in"><img src="~/Content/assets/img/logo.png" alt="Logo"></a>
         <h1 data-aos="zoom-in">Edward Barrier III</h1>
-        <h2 data-aos="fade-up">Full-Stack Developer | Tech Enthusiast</h2>
+        <h2 data-aos="fade-up">Full-Stack Developer</h2>
         <a data-aos="fade-up" href="#about" class="btn-get-started scrollto headLink">Get Started</a>
         <div class="social-links">
             <a href="https://twitter.com/codewithed" class="twitter" target="_blank"><i class="icofont-twitter"></i></a>
@@ -45,7 +49,6 @@
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
         <div class="container">
-
             <div class="section-title" data-aos="fade-up">
                 <h2>About Me</h2>
             </div>
@@ -53,28 +56,40 @@
             <div class="row">
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="image">
-                        <img src="~/Content/assets/img/small-pic (1).jpg" class="img-fluid" alt="picture of laptop" loading="lazy">
+                        <img src="~/Content/assets/img/brock-wegner-NzjRdSUNT6M-unsplash (1).jpg" class="img-fluid" alt="picture of laptop" loading="lazy">
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
-                        <p>
-                            I'm a full-stack web developer in the .NET framework with a background in customer service. I have worked several customer service jobs, now transitioning into a career field that I love.
-                        </p>
-                        <p>
-                            Technical Skills:
-                            HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development, Bootstrap, Visual Studio, C#.NET, ASP.NET, LINQ, MVC, Entity Framwork, ADO.NET, SQL, SQL Server, SSMSE.
-                        </p>
-                        <p>
-                            Professional Skills:
-                            TroubleShooting, Critical Thinking, Communication, Project Management Fundamentals, Teamwork.
-                        </p>
-                        <p>
-                            I recently graduated from Centriq Training in Kansas City, Missouri. I am self-motivated and enjoy solving complex problems. Growing up I've always been a curious person, starting with building RC cars when I was young, then moving on to building computers in my teenage years, and now I'm building a 2003 Mustang GT while following my passion in software development.
-                        </p>
+                        <div id="tabs">
+                            <ul>
+                                <li><a href="#tabs-1">Professional</a></li>
+                                <li><a href="#tabs-2">Personal</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                                <p>
+                                    I'm a Full-Stack developer from Kansas City, Missouri. Currently, I'm building full-stack web applications at All About Doors & Windows using Netsuite and Shopify. I also do freelance software development work for Transcendent Software using .NET Core.
+                                </p>
+                                <p>
+                                    Technical Skills:
+                                    HTML5, JavaScript, jQuery, jQueryUI, CSS3, Responsive/Mobile Web Development, Bootstrap, Visual Studio, C#.NET, ASP.NET, LINQ, MVC, Entity Framwork, ADO.NET, SQL, SQL Server, SSMSE.
+                                </p>
+                                <p>
+                                    Professional Skills:
+                                    Problem Solving, TroubleShooting, Critical Thinking, Communication.
+                                </p>
+                                <p>
+                                    I graduated from Centriq Training in June of 2021, becoming proficient in the .NET Framework. As of lately I've been getting better at what I'm bad at which is working with API's, building a twitter bot that sends data to twitter & also building a form that auto fills addresses using google's API. I have also been learning .NET core so I can be proficient in both environments.
+                                </p>
+                            </div>
+                            <div id="tabs-2">
+                                <p>Starting at a young age, I've always enjoyed problem solving and building things. I used to build gas powered RC cars at around the age of 7 or 8. Then I started building computers in my teenage years, I enjoyed taking a bunch of small parts and making something out of it. After I graduated high school, I started building a 2003 Mustang GT and also found my love for software development by taking computer science courses at Metropolitan Community College. In my free time I love to watch football, build projects, and go to the gym.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </section><!-- End About Us Section -->
@@ -326,13 +341,16 @@
                 <div class="resume-dev">
                     <h3 class="align-center">Independent Development Projects</h3>
                     <ul class="resume-ul">
-                        <li><strong class="yella">Personal Site: </strong>Created an application to display information about myself, examples of my work, testimonials, contact information, and my current resum&eacute;. I have also included a section for my team members because they have played a huge part in my education. For this application, I used Bootstrap, HTML5, CSS3, and JavaScript/jQuery.</li>
+                        <li>
+                            <strong class="yella">Personal Site: </strong>Created an application to display information about myself, examples of my work, testimonials, contact information, and my current resum&eacute;. I have also included a section for my team members because they have played a huge part in my education. For this application, I used Bootstrap, HTML5, CSS3, and JavaScript/jQuery.
+                        </li>
                         <li><strong class="yella">Dungeon Application: </strong>Created a simple game using C#. Including character selection and weapon selection, the player walks through the dungeons and battles monsters until he/she dies. The application the displays the players score and the game ends.</li>
                         <li><strong class="yella">Front-End Development Project: </strong>Created an application that follows a start-up companies project brief. This application is constructed using HTML5, CSS3, and JavaScript/jQuery.</li>
                         <li><strong class="yella">Rust Random Task Generator: </strong>Created an application to give me random tasks on my favorite game. The main purpose for this application was to dive deeper into JavaScript/jQuery functionality. This application is constructed using HTML5, CSS3, and JavaScript/jQuery.</li>
                         <li><strong class="yella">StoreFront: </strong>Created a secure application for managing product data. Application is built to simulate an online store front with a shopping cart. Administrators have the ability to manage product, category and vendor data.</li>
                         <li><strong class="yella">S.A.T. Scheduling Administration Tool: </strong>Created a secure application for managing product data. Application is built to simulate an online class scheduling system. Administrators will have the ability to manage students, courses, scheduled classes, and enrollments.</li>
                         <li><strong class="yella">Final Project: </strong>Created a secure data-driven ASP.NET MVC application from design through deployment for managing the tracking and organization of hardware and software within a company. Administrators have the ability to manage the employee, department data, and all details relating to assigned hardware and software.</li>
+                        <li><strong class="yella">Twitter Bot: </strong>Created a twitter bot in C# to learn how to work with data and API's.</li>
                     </ul>
                 </div>
                 <hr />
@@ -362,61 +380,60 @@
                 <div>
                     <h3 class="align-center">Work Experience</h3>
                     <div class="resume-training">
-                        <p id="spec"><strong class="yella">Package Handler</strong>, FedEx Ground</p>
-                        <p class="right">12/2020-04/2021</p>
+                        <p id="spec"><strong class="yella">Freelance Software Developer</strong>, Transcendant Software</p>
+                        <p class="right">12/2021 - Current</p>
                         <p>Kansas City, Missouri</p>
                         <ul>
-                            <li>Stored items in an orderly and accessible manner in three trucks at a time.</li>
-                            <li>Developing constructive and cooperative working relationships with others, and maintaining them over time.</li>
-                            <li>Managed and scanned 100% of the packages that I've dealth with, daily.</li>
+                            <li>Built data-driven .NET applications with CRUD functionality.</li>
+                            <li>Used various technologies, including Razor, C#, JavaScript, HTML, and CSS.</li>
+                            <li>Work closely with a Senior Developer to developer full-stack applications.</li>
                         </ul>
                         <br />
-                        <p id="spec"><strong class="yella">Sales Advisor</strong>, Office Depot</p>
-                        <p class="right">02/2019-12/2020</p>
-                        <p>Independence, Missouri</p>
+                        <p id="spec"><strong class="yella">Full-Stack Developer</strong>, All About Doors & Windows </p>
+                        <p class="right">10/2021-Current</p>
+                        <p>North Kansas City, Missouri</p>
                         <ul>
-                            <li>Recommend, select, and help locate or obtain merchandise based on customer needs and desires.</li>
-                            <li>Designed flyers, posters, postcards, etc. for 20+ customers a week.</li>
-                            <li>Knowledge of principles and methods for showing, promoting, and selling products or services. This includes marketing strategy and tactics, product demonstration, sales techniques, and sales control systems.</li>
-                            <li>Giving full attention to what other people are saying, taking time to understand the points being made, asking questions as appropriate, and not interrupting at inappropriate times.</li>
-                            <li>Developing constructive and cooperative working relationships with others, and maintaining them over time.</li>
-                            <li>Took initiative to learn every position so I could flex where I was needed most. Salesmen for computers and printers, while being specialized in the print department. Lastly, running register when needed.</li>
+                            <li>Used various languages including HTML, CSS, & JavaScript.</li>
+                            <li>Played a key role in the development of a full-stack shopify web application.</li>
+                            <li>Gained hands-on experience in jQuery, Shopify, Liquid (Shopify's Native Language), & Netsuite.</li>
+                            <li>Gained experience with implementing API's in to web applications.</li>
+                            <li>Helped with the improvement of web applications.</li>
                         </ul>
-                        <br />
-                        <p id="spec"><strong class="yella">Lube Technician</strong>, Adams Toyota</p>
-                        <p class="right">09/2017-11/2018</p>
-                        <p>Lee's Summit, Missouri</p>
-                        <ul>
-                            <li>Inspect vehicles for damage and record findings so that necessary repairs can be made.</li>
-                            <li>Perform routine and scheduled maintenance services, such as oil changes, lubrications, and tune-ups.</li>
-                            <li>Knowledge of machines and tools, including their designs, uses, repair, and maintenance.</li>
-                            <li>Determining causes of operating errors and deciding what to do about it.</li>
-                            <li>Analyzing information and evaluating results to choose the best solution and solve problems.</li>
-                            <li>Took initiative to learn multiple positions to flex. Lube Technician most of the time, porting on a couple days when needed.</li>
-                        </ul>
-                        <br />
-                        <p id="spec"><strong class="yella">Carpet Installer</strong>, Lowe's Home Improvement</p>
-                        <p class="right">06/2017-08/2017</p>
-                        <p>Kansas City, Missouri</p>
-                        <ul>
-                            <li>Take measurements and study floor sketches to calculate the area to be carpeted and the amount of material needed.</li>
-                            <li>Cut and trim carpet to fit along wall edges, openings, and projections, finishing the edges with a wall trimmer.</li>
-                            <li>Knowledge of the materials and tools involved in the installation.</li>
-                            <li>Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.</li>
-                            <li>Analyzing information and evaluating results to choose the best solution and solve problems.</li>
-                        </ul>
-                        <br />
-                        <p id="spec"><strong class="yella">Cook</strong>, Pizza Hut</p>
-                        <p class="right">12/2016-06/2017</p>
-                        <p>Independence, Missouri</p>
-                        <ul>
-                            <li>Read food order slips or receive verbal instructions as to food required by patron, and prepare and cook food according to instructions.</li>
-                            <li>Clean, stock, and restock workstations and display cases.</li>
-                            <li>Maintain sanitation, health, and safety standards in work areas.</li>
-                            <li>Verify that prepared food meets requirements for quality and quantity.</li>
-                            <li>Importance of being accurate.</li>
-                            <li>Importance of working with a team.</li>
-                        </ul>
+                        @*<br />
+                            <p id="spec"><strong class="yella">Lube Technician</strong>, Adams Toyota</p>
+                            <p class="right">09/2017-11/2018</p>
+                            <p>Lee's Summit, Missouri</p>
+                            <ul>
+                                <li>Inspect vehicles for damage and record findings so that necessary repairs can be made.</li>
+                                <li>Perform routine and scheduled maintenance services, such as oil changes, lubrications, and tune-ups.</li>
+                                <li>Knowledge of machines and tools, including their designs, uses, repair, and maintenance.</li>
+                                <li>Determining causes of operating errors and deciding what to do about it.</li>
+                                <li>Analyzing information and evaluating results to choose the best solution and solve problems.</li>
+                                <li>Took initiative to learn multiple positions to flex. Lube Technician most of the time, porting on a couple days when needed.</li>
+                            </ul>
+                            <br />
+                            <p id="spec"><strong class="yella">Carpet Installer</strong>, Lowe's Home Improvement</p>
+                            <p class="right">06/2017-08/2017</p>
+                            <p>Kansas City, Missouri</p>
+                            <ul>
+                                <li>Take measurements and study floor sketches to calculate the area to be carpeted and the amount of material needed.</li>
+                                <li>Cut and trim carpet to fit along wall edges, openings, and projections, finishing the edges with a wall trimmer.</li>
+                                <li>Knowledge of the materials and tools involved in the installation.</li>
+                                <li>Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.</li>
+                                <li>Analyzing information and evaluating results to choose the best solution and solve problems.</li>
+                            </ul>
+                            <br />
+                            <p id="spec"><strong class="yella">Cook</strong>, Pizza Hut</p>
+                            <p class="right">12/2016-06/2017</p>
+                            <p>Independence, Missouri</p>
+                            <ul>
+                                <li>Read food order slips or receive verbal instructions as to food required by patron, and prepare and cook food according to instructions.</li>
+                                <li>Clean, stock, and restock workstations and display cases.</li>
+                                <li>Maintain sanitation, health, and safety standards in work areas.</li>
+                                <li>Verify that prepared food meets requirements for quality and quantity.</li>
+                                <li>Importance of being accurate.</li>
+                                <li>Importance of working with a team.</li>
+                            </ul>*@
                     </div>
 
                 </div>
@@ -504,7 +521,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-free-bootstrap-theme/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | Converted by Edward Barrier III
+            <p>&copy; 2022 Edward Barrier III</p>
         </div>
     </div>
 </footer><!-- End Footer -->
@@ -538,5 +555,9 @@
                 }
             });
         });
+    </script>
+
+    <script>
+        $("#tabs").tabs();
     </script>
 }
